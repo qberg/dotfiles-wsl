@@ -39,7 +39,7 @@ local on_attach = function(client,bufnr)
 	
 end
 -- Server setup for different languages
-local servers = {'pyright', 'rust_analyzer', 'gopls', 'clangd'}
+local servers = {'pyright', 'rust_analyzer', 'gopls', 'clangd', 'jdtls'}
 for _, lsp in pairs(servers) do
 	require('lspconfig')[lsp].setup{
 		capabilities = capabilities,
