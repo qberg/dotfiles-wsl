@@ -36,6 +36,9 @@ Plug 'L3MON4D3/Luasnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 " Enhance rust-analyzer
 Plug 'simrat39/rust-tools.nvim'
+" Java lsp
+Plug 'mfussenegger/nvim-jdtls'
+
 
 "Telescope requirements for fuzzy finding.
 Plug 'nvim-lua/popup.nvim'
