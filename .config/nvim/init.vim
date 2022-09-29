@@ -39,6 +39,16 @@ Plug 'simrat39/rust-tools.nvim'
 " Java lsp
 Plug 'mfussenegger/nvim-jdtls'
 
+" Debugging protocol
+Plug 'mfussenegger/nvim-dap'
+Plug 'rcarriga/nvim-dap-ui'
+Plug 'theHamsta/nvim-dap-virtual-text'
+Plug 'nvim-telescope/telescope-dap.nvim'
+" lang
+Plug 'jbyuki/one-small-step-for-vimkind'
+Plug 'leoluz/nvim-dap-go'
+Plug 'mfussenegger/nvim-dap-python'
+
 
 "Telescope requirements for fuzzy finding.
 Plug 'nvim-lua/popup.nvim'
@@ -93,6 +103,25 @@ nnoremap <F5> :lua package.loaded.qberg = nil <cr>:source ~/.config/nvim/init.vi
 
 
 " endof config }}}
+
+
+
+
+" " clipboard with win32yank.exe
+" let g:clipboard = {
+" 	\	'name': 'win32yank-wsl',
+" 	\	'copy': {
+" 	\		'+':'win32yank.exe -i -crlf',
+" 	\		'*':'win32yank.exe -i -crlf',
+" 	\	},
+" 	\	'paste': {
+" 	\		'+':'win32yank.exe -o -lf',
+" 	\		'*':'win32yank.exe -o -lf',
+" 	\	},
+" 	\	'cache_enabled':0,
+" 	\}
+" 
+
 
 
 
