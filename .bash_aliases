@@ -10,13 +10,13 @@ alias ...='cd ..; cd ..'
 
 alias ....='cd ..; cd ..; cd ..'
 
-alias loadbash='source ~/.bashrc'
+alias sb='source ~/.bashrc'
 
-alias bashrc='nvim ~/.bashrc'
+alias eb='nvim ~/.bashrc'
 
 alias zathrc='nvim ~/.config/zathura/zathurarc'
 
-alias bashal='nvim ~/.bash_aliases' 
+alias eba='nvim ~/.bash_aliases' 
 
 ##########################################################
 # Directory aliases
@@ -38,11 +38,17 @@ alias lua='cd /mnt/a/coding/lua'
 
 alias sh='cd /mnt/a/coding/linux/shell_scripts'
 
-alias jav='cd /mnt/a/coding/java'
+alias dotjava='cd /mnt/a/coding/java'
+
+alias hs='cd /mnt/a/coding/haskell'
 
 alias ddp='cd /mnt/a/ddp'
 
-alias cop='cd /mnt/a/coding/combinatorial-optimization'
+alias course='cd /mnt/a/coding/courses'
+
+alias initlua='cd ~/.config/nvim'
+
 ############################################################
-
-
+# Latex templates
+############################################################
+alias mathnote='cp -r /mnt/a/notes/templates/math-note-templates/template1/* .'
